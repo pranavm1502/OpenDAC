@@ -148,7 +148,7 @@ To Read voltage from the DAC register, deliver the following command:
 
 Example: `READ 1`
 
-## Results
+## Results (in progress, to be completed when new DACs come)
 
 We measured the voltage noise by using a Keysight S-Series Oscilloscope. To measure the noise, we did a fast fourier transform on the signal and got the average noise floor in dBm. We took some data at "high frequency" and simulated a low-pass filter on the other to see how it compared against our currently used voltage source, the Yokogawa GS200. 
 
